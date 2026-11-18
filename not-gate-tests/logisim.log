@@ -1,0 +1,8 @@
+COMP Pin (150,200) PORTS (150,200)
+COMP NOT Gate (330,200) PORTS (330,200);(300,200)
+COMP Pin (450,200) PORTS (450,200)
+PASS row=1 0,1
+PASS row=2 1,0
+PASS row=3 0,1
+PASS row=4 1,0
+LOGISIM PASS: 4 sequential vectors; no oscillation

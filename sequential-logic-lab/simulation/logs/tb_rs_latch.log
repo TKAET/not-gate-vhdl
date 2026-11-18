@@ -1,0 +1,3 @@
+DESIGN: rs_latch
+SYNTHESIS PASS: rs_latch
+C:\Users\33255\Documents\Codex\2026-11-16\1-rs-latch-write-vhdl-code\vhdl\tb\tb_rs_latch.vhd:29:9:@60ns:(report note): tb_rs_latch PASS

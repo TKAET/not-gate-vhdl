@@ -1,0 +1,133 @@
+$date
+  Wed Nov 18 20:32:44 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_jk_ff $end
+$var reg 1 ! clk $end
+$var reg 1 " j $end
+$var reg 1 # k $end
+$var reg 1 $ q $end
+$var reg 1 % q_bar $end
+$scope module dut $end
+$var reg 1 & clk $end
+$var reg 1 ' j $end
+$var reg 1 ( k $end
+$var reg 1 ) q $end
+$var reg 1 * q_bar $end
+$var reg 1 + q_i $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+1%
+0&
+0'
+0(
+0)
+1*
+0+
+#5000000
+1!
+1&
+#6000000
+1"
+1'
+#10000000
+0!
+0&
+#15000000
+1!
+1$
+0%
+1&
+1)
+0*
+1+
+#16000000
+0"
+0'
+#20000000
+0!
+0&
+#25000000
+1!
+1&
+#26000000
+1#
+1(
+#30000000
+0!
+0&
+#35000000
+1!
+0$
+1%
+1&
+0)
+1*
+0+
+#36000000
+1"
+1'
+#40000000
+0!
+0&
+#45000000
+1!
+1$
+0%
+1&
+1)
+0*
+1+
+#50000000
+0!
+0&
+#55000000
+1!
+0$
+1%
+1&
+0)
+1*
+0+
+#60000000
+0!
+0&
+#65000000
+1!
+1$
+0%
+1&
+1)
+0*
+1+
+#70000000
+0!
+0&
+#75000000
+1!
+0$
+1%
+1&
+0)
+1*
+0+
+#80000000
+0!
+0&

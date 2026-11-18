@@ -1,0 +1,4 @@
+DESIGN: d_ff
+SYNTHESIS PASS: d_ff
+C:\Users\33255\Documents\Codex\2026-11-16\1-rs-latch-write-vhdl-code\vhdl\tb\tb_d_ff.vhd:34:9:@30ns:(report note): tb_d_ff PASS
+ghdl:info: simulation stopped by --stop-time @60ns

@@ -1,0 +1,3 @@
+DESIGN: d_latch
+SYNTHESIS PASS: d_latch
+C:\Users\33255\Documents\Codex\2026-11-16\1-rs-latch-write-vhdl-code\vhdl\tb\tb_d_latch.vhd:29:9:@60ns:(report note): tb_d_latch PASS

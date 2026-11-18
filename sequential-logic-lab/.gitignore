@@ -1,0 +1,7 @@
+work-obj*.cf
+*.o
+*.exe
+tmp/
+*.class
+java_build/
+__pycache__/

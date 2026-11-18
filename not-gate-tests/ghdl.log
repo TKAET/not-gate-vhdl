@@ -1,0 +1,4 @@
+C:\Users\33255\Documents\Codex\2026-11-16\1-rs-latch-write-vhdl-code\work\github-repo\tb_not_gate.vhd:15:9:@10ns:(report note): PASS: a=0 y=1
+C:\Users\33255\Documents\Codex\2026-11-16\1-rs-latch-write-vhdl-code\work\github-repo\tb_not_gate.vhd:18:9:@20ns:(report note): PASS: a=1 y=0
+C:\Users\33255\Documents\Codex\2026-11-16\1-rs-latch-write-vhdl-code\work\github-repo\tb_not_gate.vhd:23:9:@40ns:(report note): tb_not_gate PASS: 4 binary test vectors
+simulation finished @40ns

@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project source="5.0.0" version="1.0">
+  <lib name="0" desc="#Wiring" />
+  <lib name="1" desc="#Gates" />
+  <lib name="9" desc="#Base" />
+  <main name="main" />
+  <options>
+    <a name="gateUndefined" val="ignore" />
+    <a name="simlimit" val="1000" />
+    <a name="simrand" val="0" />
+  </options>
+  <mappings />
+  <toolbar>
+    <tool lib="9" name="Poke Tool" />
+    <tool lib="9" name="Edit Tool" />
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution" />
+    <comp lib="0" name="Pin" loc="(100,80)">
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="label" val="D" />
+      <a name="appearance" val="classic" />
+      <a name="labelfont" val="SansSerif bold 12" />
+    </comp>
+    <wire from="(100,80)" to="(150,80)" />
+    <comp lib="0" name="Tunnel" loc="(150,80)">
+      <a name="facing" val="west" />
+      <a name="label" val="D" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="0" name="Pin" loc="(100,140)">
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="label" val="CLK" />
+      <a name="appearance" val="classic" />
+      <a name="labelfont" val="SansSerif bold 12" />
+    </comp>
+    <wire from="(100,140)" to="(150,140)" />
+    <comp lib="0" name="Tunnel" loc="(150,140)">
+      <a name="facing" val="west" />
+      <a name="label" val="CLK" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="0" name="Pin" loc="(100,200)">
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="label" val="SET" />
+      <a name="appearance" val="classic" />
+      <a name="labelfont" val="SansSerif bold 12" />
+    </comp>
+    <wire from="(100,200)" to="(150,200)" />
+    <comp lib="0" name="Tunnel" loc="(150,200)">
+      <a name="facing" val="west" />
+      <a name="label" val="SET" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="0" name="Pin" loc="(100,260)">
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="label" val="CLR" />
+      <a name="appearance" val="classic" />
+      <a name="labelfont" val="SansSerif bold 12" />
+    </comp>
+    <wire from="(100,260)" to="(150,260)" />
+    <comp lib="0" name="Tunnel" loc="(150,260)">
+      <a name="facing" val="west" />
+      <a name="label" val="CLR" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="0" name="Pin" loc="(1000,80)">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="label" val="Q" />
+      <a name="appearance" val="classic" />
+      <a name="labelfont" val="SansSerif bold 12" />
+    </comp>
+    <wire from="(1000,80)" to="(950,80)" />
+    <comp lib="0" name="Tunnel" loc="(950,80)">
+      <a name="facing" val="east" />
+      <a name="label" val="Q" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="0" name="Pin" loc="(1000,140)">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="label" val="Q_bar" />
+      <a name="appearance" val="classic" />
+      <a name="labelfont" val="SansSerif bold 12" />
+    </comp>
+    <wire from="(1000,140)" to="(950,140)" />
+    <comp lib="0" name="Tunnel" loc="(950,140)">
+      <a name="facing" val="east" />
+      <a name="label" val="Q_bar" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(300,320)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(200,300)" to="(240,300)" />
+    <comp lib="0" name="Tunnel" loc="(200,300)">
+      <a name="facing" val="east" />
+      <a name="label" val="D" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(200,340)" to="(240,340)" />
+    <comp lib="0" name="Tunnel" loc="(200,340)">
+      <a name="facing" val="east" />
+      <a name="label" val="D" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(300,320)" to="(350,320)" />
+    <comp lib="0" name="Tunnel" loc="(350,320)">
+      <a name="facing" val="west" />
+      <a name="label" val="D_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(300,460)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(200,440)" to="(240,440)" />
+    <comp lib="0" name="Tunnel" loc="(200,440)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLK" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(200,480)" to="(240,480)" />
+    <comp lib="0" name="Tunnel" loc="(200,480)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLK" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(300,460)" to="(350,460)" />
+    <comp lib="0" name="Tunnel" loc="(350,460)">
+      <a name="facing" val="west" />
+      <a name="label" val="CLK_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(300,800)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(200,780)" to="(240,780)" />
+    <comp lib="0" name="Tunnel" loc="(200,780)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLR" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(200,820)" to="(240,820)" />
+    <comp lib="0" name="Tunnel" loc="(200,820)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLR" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(300,800)" to="(350,800)" />
+    <comp lib="0" name="Tunnel" loc="(350,800)">
+      <a name="facing" val="west" />
+      <a name="label" val="CLR_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(300,940)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(200,920)" to="(240,920)" />
+    <comp lib="0" name="Tunnel" loc="(200,920)">
+      <a name="facing" val="east" />
+      <a name="label" val="SET" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(200,960)" to="(240,960)" />
+    <comp lib="0" name="Tunnel" loc="(200,960)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLR_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(300,940)" to="(350,940)" />
+    <comp lib="0" name="Tunnel" loc="(350,940)">
+      <a name="facing" val="west" />
+      <a name="label" val="PRE_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(580,560)">
+      <a name="size" val="50" />
+      <a name="inputs" val="3" />
+    </comp>
+    <wire from="(480,540)" to="(520,540)" />
+    <comp lib="0" name="Tunnel" loc="(480,540)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLK_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,560)" to="(520,560)" />
+    <comp lib="0" name="Tunnel" loc="(480,560)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLR_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,580)" to="(520,580)" />
+    <comp lib="0" name="Tunnel" loc="(480,580)">
+      <a name="facing" val="east" />
+      <a name="label" val="PRE_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(580,560)" to="(630,560)" />
+    <comp lib="0" name="Tunnel" loc="(630,560)">
+      <a name="facing" val="west" />
+      <a name="label" val="M_EN_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(860,560)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(760,540)" to="(800,540)" />
+    <comp lib="0" name="Tunnel" loc="(760,540)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_EN_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,580)" to="(800,580)" />
+    <comp lib="0" name="Tunnel" loc="(760,580)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_EN_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(860,560)" to="(910,560)" />
+    <comp lib="0" name="Tunnel" loc="(910,560)">
+      <a name="facing" val="west" />
+      <a name="label" val="M_EN" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(580,320)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(480,300)" to="(520,300)" />
+    <comp lib="0" name="Tunnel" loc="(480,300)">
+      <a name="facing" val="east" />
+      <a name="label" val="D" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,340)" to="(520,340)" />
+    <comp lib="0" name="Tunnel" loc="(480,340)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_EN" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(580,320)" to="(630,320)" />
+    <comp lib="0" name="Tunnel" loc="(630,320)">
+      <a name="facing" val="west" />
+      <a name="label" val="M_S_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(580,440)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(480,420)" to="(520,420)" />
+    <comp lib="0" name="Tunnel" loc="(480,420)">
+      <a name="facing" val="east" />
+      <a name="label" val="D_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,460)" to="(520,460)" />
+    <comp lib="0" name="Tunnel" loc="(480,460)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_EN" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(580,440)" to="(630,440)" />
+    <comp lib="0" name="Tunnel" loc="(630,440)">
+      <a name="facing" val="west" />
+      <a name="label" val="M_R_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(860,320)">
+      <a name="size" val="50" />
+      <a name="inputs" val="3" />
+    </comp>
+    <wire from="(760,300)" to="(800,300)" />
+    <comp lib="0" name="Tunnel" loc="(760,300)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_S_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,320)" to="(800,320)" />
+    <comp lib="0" name="Tunnel" loc="(760,320)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_Q_bar" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,340)" to="(800,340)" />
+    <comp lib="0" name="Tunnel" loc="(760,340)">
+      <a name="facing" val="east" />
+      <a name="label" val="PRE_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(860,320)" to="(910,320)" />
+    <comp lib="0" name="Tunnel" loc="(910,320)">
+      <a name="facing" val="west" />
+      <a name="label" val="M_Q" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(860,440)">
+      <a name="size" val="50" />
+      <a name="inputs" val="3" />
+    </comp>
+    <wire from="(760,420)" to="(800,420)" />
+    <comp lib="0" name="Tunnel" loc="(760,420)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_R_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,440)" to="(800,440)" />
+    <comp lib="0" name="Tunnel" loc="(760,440)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_Q" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,460)" to="(800,460)" />
+    <comp lib="0" name="Tunnel" loc="(760,460)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLR_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(860,440)" to="(910,440)" />
+    <comp lib="0" name="Tunnel" loc="(910,440)">
+      <a name="facing" val="west" />
+      <a name="label" val="M_Q_bar" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(580,1000)">
+      <a name="size" val="50" />
+      <a name="inputs" val="3" />
+    </comp>
+    <wire from="(480,980)" to="(520,980)" />
+    <comp lib="0" name="Tunnel" loc="(480,980)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLK" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,1000)" to="(520,1000)" />
+    <comp lib="0" name="Tunnel" loc="(480,1000)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLR_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,1020)" to="(520,1020)" />
+    <comp lib="0" name="Tunnel" loc="(480,1020)">
+      <a name="facing" val="east" />
+      <a name="label" val="PRE_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(580,1000)" to="(630,1000)" />
+    <comp lib="0" name="Tunnel" loc="(630,1000)">
+      <a name="facing" val="west" />
+      <a name="label" val="EN_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(860,1000)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(760,980)" to="(800,980)" />
+    <comp lib="0" name="Tunnel" loc="(760,980)">
+      <a name="facing" val="east" />
+      <a name="label" val="EN_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,1020)" to="(800,1020)" />
+    <comp lib="0" name="Tunnel" loc="(760,1020)">
+      <a name="facing" val="east" />
+      <a name="label" val="EN_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(860,1000)" to="(910,1000)" />
+    <comp lib="0" name="Tunnel" loc="(910,1000)">
+      <a name="facing" val="west" />
+      <a name="label" val="EN" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(580,760)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(480,740)" to="(520,740)" />
+    <comp lib="0" name="Tunnel" loc="(480,740)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_Q" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,780)" to="(520,780)" />
+    <comp lib="0" name="Tunnel" loc="(480,780)">
+      <a name="facing" val="east" />
+      <a name="label" val="EN" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(580,760)" to="(630,760)" />
+    <comp lib="0" name="Tunnel" loc="(630,760)">
+      <a name="facing" val="west" />
+      <a name="label" val="S_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(580,880)">
+      <a name="size" val="50" />
+      <a name="inputs" val="2" />
+    </comp>
+    <wire from="(480,860)" to="(520,860)" />
+    <comp lib="0" name="Tunnel" loc="(480,860)">
+      <a name="facing" val="east" />
+      <a name="label" val="M_Q_bar" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(480,900)" to="(520,900)" />
+    <comp lib="0" name="Tunnel" loc="(480,900)">
+      <a name="facing" val="east" />
+      <a name="label" val="EN" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(580,880)" to="(630,880)" />
+    <comp lib="0" name="Tunnel" loc="(630,880)">
+      <a name="facing" val="west" />
+      <a name="label" val="R_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(860,760)">
+      <a name="size" val="50" />
+      <a name="inputs" val="3" />
+    </comp>
+    <wire from="(760,740)" to="(800,740)" />
+    <comp lib="0" name="Tunnel" loc="(760,740)">
+      <a name="facing" val="east" />
+      <a name="label" val="S_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,760)" to="(800,760)" />
+    <comp lib="0" name="Tunnel" loc="(760,760)">
+      <a name="facing" val="east" />
+      <a name="label" val="Q_bar" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,780)" to="(800,780)" />
+    <comp lib="0" name="Tunnel" loc="(760,780)">
+      <a name="facing" val="east" />
+      <a name="label" val="PRE_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(860,760)" to="(910,760)" />
+    <comp lib="0" name="Tunnel" loc="(910,760)">
+      <a name="facing" val="west" />
+      <a name="label" val="Q" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <comp lib="1" name="NAND Gate" loc="(860,880)">
+      <a name="size" val="50" />
+      <a name="inputs" val="3" />
+    </comp>
+    <wire from="(760,860)" to="(800,860)" />
+    <comp lib="0" name="Tunnel" loc="(760,860)">
+      <a name="facing" val="east" />
+      <a name="label" val="R_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,880)" to="(800,880)" />
+    <comp lib="0" name="Tunnel" loc="(760,880)">
+      <a name="facing" val="east" />
+      <a name="label" val="Q" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(760,900)" to="(800,900)" />
+    <comp lib="0" name="Tunnel" loc="(760,900)">
+      <a name="facing" val="east" />
+      <a name="label" val="CLR_n" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(860,880)" to="(910,880)" />
+    <comp lib="0" name="Tunnel" loc="(910,880)">
+      <a name="facing" val="west" />
+      <a name="label" val="Q_bar" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+  </circuit>
+</project>

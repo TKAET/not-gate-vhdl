@@ -1,0 +1,23 @@
+Verified with the actual Logisim-evolution 5.0.0 propagation engine
+================================================================
+
+Circuit                         Ordered vectors   Logisim   GHDL same vectors
+RS latch                        9                 PASS      PASS
+D latch                         151               PASS      PASS
+D flip-flop                     402               PASS      PASS
+JK flip-flop                    214               PASS      PASS
+D flip-flop asynchronous        418               PASS      PASS
+TOTAL                           1194              PASS      PASS
+
+The CSV expected values follow the corresponding state table. The native
+Logisim engine retains the circuit state between rows and checks outputs after
+propagation settles. GHDL replays those exact CSV files independently. Rows
+whose expected output is '-' deliberately make no power-up-state assumption.
+
+Raw logs: simulation/logs/logisim_*.log and equivalence_*.log
+Input and expected output: simulation/logisim_vectors/*.csv
+Reproduce: scripts/run_all.ps1, then scripts/run_gate_checks.ps1
+
+All storage in the .circ files uses individual NAND/NOR gates. Same-named
+Tunnel components are connected wires, including feedback; they are not
+storage primitives. Diagrams were rendered by Logisim itself from these files.

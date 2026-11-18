@@ -1,0 +1,4 @@
+DESIGN: jk_ff
+SYNTHESIS PASS: jk_ff
+C:\Users\33255\Documents\Codex\2026-11-16\1-rs-latch-write-vhdl-code\vhdl\tb\tb_jk_ff.vhd:38:9:@56ns:(report note): tb_jk_ff PASS
+ghdl:info: simulation stopped by --stop-time @80ns

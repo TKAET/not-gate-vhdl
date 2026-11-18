@@ -1,0 +1,7 @@
+work-obj*.cf
+*.class
+*.o
+*.exe
+java_build/
+__pycache__/
+.DS_Store
